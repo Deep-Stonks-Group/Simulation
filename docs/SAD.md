@@ -7,3 +7,7 @@ be able to buy/sell/hold stocks, and make calls to the algorithms in order to de
 2. Needs to be able to get real price data.
 3. Needs to be able to keep track of which stocks it’s currently holding, and how much money.
 4. Needs to be able to make decisions based on an algorithm to buy/sell/hold a stock.
+
+# Software Architecture
+
+## [Software Architecture Documentation](docs/SAD.md)

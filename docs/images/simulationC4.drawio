@@ -1,0 +1,112 @@
+<mxfile>
+    <diagram id="5Y5EJhlLANc6bmbaibWA" name="Page-1">
+        <mxGraphModel dx="962" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#006EAF;fillColor=#1ba1e2;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="610" as="targetPoint"/>
+                        <mxPoint x="400" y="520" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="POST /model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#919191;" vertex="1" connectable="0" parent="8">
+                    <mxGeometry x="-0.0667" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeColor=#006EAF;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#1ba1e2;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="580" y="710" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="540" y="520"/>
+                            <mxPoint x="540" y="615"/>
+                            <mxPoint x="580" y="615"/>
+                        </Array>
+                        <mxPoint x="480" y="520" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="&lt;font style=&quot;background-color: rgb(145 , 145 , 145)&quot; color=&quot;#ffffff&quot;&gt;POST /something&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="10">
+                    <mxGeometry x="-0.2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;strokeColor=#006EAF;fillColor=#1ba1e2;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="580" y="490" as="targetPoint"/>
+                        <mxPoint x="480" y="490" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="POST /trade" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#919191;" vertex="1" connectable="0" parent="12">
+                    <mxGeometry x="-0.12" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="&lt;span style=&quot;background-color: rgb(145 , 145 , 145)&quot;&gt;GET /market-data&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#006EAF;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#1ba1e2;" edge="1" parent="1">
+                    <mxGeometry x="0.0483" y="-11" width="80" relative="1" as="geometry">
+                        <mxPoint x="320" y="150" as="sourcePoint"/>
+                        <mxPoint x="240" y="240" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="&lt;span style=&quot;background-color: rgb(145 , 145 , 145)&quot;&gt;GET /simulation&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#006EAF;entryX=0.213;entryY=-0.017;entryDx=0;entryDy=0;exitX=1.007;exitY=0.375;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;fillColor=#1ba1e2;" edge="1" parent="1">
+                    <mxGeometry x="0.2058" y="-1" width="80" relative="1" as="geometry">
+                        <mxPoint x="471.04999999999995" y="140" as="sourcePoint"/>
+                        <mxPoint x="554.0799999999999" y="237.96000000000004" as="targetPoint"/>
+                        <mxPoint y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="" style="line;strokeWidth=1;rotatable=0;dashed=1;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="370" width="740" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;span style=&quot;background-color: rgb(145 , 145 , 145)&quot;&gt;GET /market-data&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#006EAF;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#1ba1e2;" edge="1" parent="1">
+                    <mxGeometry x="0.0483" y="-11" width="80" relative="1" as="geometry">
+                        <mxPoint x="320" y="500" as="sourcePoint"/>
+                        <mxPoint x="240" y="590" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;shadow=0;glass=0;dashed=1;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="840" width="740" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="POST /something" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#919191;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="500" y="987.5" as="sourcePoint"/>
+                        <mxPoint x="620" y="1035" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="&lt;font color=&quot;#030303&quot;&gt;&lt;b&gt;Simulation Service&lt;/b&gt;&lt;br&gt;- Can be invoked by UI&lt;br&gt;- also invoked via console?&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#66B2FF;fontColor=#f0f0f0;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="220" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;font color=&quot;#030303&quot;&gt;&lt;b&gt;Simulation Service&lt;/b&gt;&lt;br&gt;- uses market data as input&amp;nbsp;&lt;br&gt;to model&lt;br&gt;- triggers model runs&lt;br&gt;- serves/stores all relating information&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#66B2FF;fontColor=#f0f0f0;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="410" width="170" height="125" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;b style=&quot;color: rgb(3 , 3 , 3)&quot;&gt;Trading Service&lt;/b&gt;&lt;br style=&quot;color: rgb(3 , 3 , 3)&quot;&gt;&lt;span style=&quot;color: rgb(3 , 3 , 3)&quot;&gt;- executes trade requests from sim&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(3 , 3 , 3)&quot;&gt;&lt;span style=&quot;color: rgb(3 , 3 , 3)&quot;&gt;- logs trades in db via db service&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#66B2FF;fontColor=#f0f0f0;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="450" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;font color=&quot;#030303&quot;&gt;&lt;b&gt;Trading Service&lt;/b&gt;&lt;br&gt;- executes trade requests from sim&amp;nbsp;&lt;br&gt;- logs trades in db via db service&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#66B2FF;fontColor=#f0f0f0;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="910" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;font color=&quot;#030303&quot;&gt;&lt;b&gt;Common Data Service&lt;/b&gt;&lt;br&gt;- exposes db ops via rest&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#f0f0f0;fillColor=#919191;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1040" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;font color=&quot;#030303&quot;&gt;&lt;b&gt;UI Client&amp;nbsp;&lt;/b&gt;&lt;br&gt;- react etc..&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#f0f0f0;fillColor=#919191;" vertex="1" parent="1">
+                    <mxGeometry x="285" y="60" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;font color=&quot;#030303&quot;&gt;&lt;b&gt;Data Retrieval Services&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#f0f0f0;fillColor=#919191;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="240" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;font color=&quot;#030303&quot;&gt;&lt;b&gt;Data Retrieval Services&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#f0f0f0;fillColor=#919191;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="590" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="&lt;font color=&quot;#030303&quot;&gt;&lt;b&gt;Model Wrapper Service&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#f0f0f0;fillColor=#919191;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="600" width="220" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;font color=&quot;#030303&quot;&gt;&lt;b&gt;Common Data Service&lt;/b&gt;&lt;br&gt;- exposes db ops via rest&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#f0f0f0;fillColor=#919191;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="710" width="230" height="100" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
