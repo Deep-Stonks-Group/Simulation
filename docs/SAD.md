@@ -9,4 +9,4 @@ be able to buy/sell/hold stocks, and make calls to the algorithms in order to de
 4. Needs to be able to make decisions based on an algorithm to buy/sell/hold a stock.
 
 
-![Software Architecture Documentation](images/simulationc4.png)
+![Software Architecture Documentation](images/simulationC4.png)
